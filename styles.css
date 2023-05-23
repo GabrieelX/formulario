@@ -1,0 +1,115 @@
+#foto{
+    border: 2px solid black;
+    width: 150px;
+    height: 210px;
+}
+
+.juntei{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+h1{
+    margin: 0;
+    color: rgb(100, 190, 109);
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+*{
+    background-color: #e5e5e5;
+}
+#lock{
+    margin-left: 15px;
+}
+
+.aluno{
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 12px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.mae{
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+}
+
+.maee{
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+.pai{
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 12px;
+    border-radius: 25px;
+}
+
+.paii{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#enviar{
+    text-align: center;
+}
+
+input{
+    border: 0;
+    border-bottom: 1.8px solid rgb(200,200,200);
+    outline: 0;
+}
+
+input:focus{
+    border-bottom: 1.8px solid cornflowerblue;
+}
+
+#enviar input{
+    border-bottom: 0px;
+    border: 4px solid rgb(100, 190, 109);
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.file-input-container span {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+.file-input-container label {
+    display: block;
+    padding: 6px 12px;
+    background-color: #609164;
+    
+}
+.file-input-container input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    
+  }
+  .file-input-container {
+    position: relative;
+    display: inline-block;
+    width: 140px;
+    height: 60px;
+    top: 70px;
+    left: 6px;
+   
+    overflow: hidden;
+  }
+
+
+
+
