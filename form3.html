@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form action="" method="get">
+        <h1>FORMULÁRIO ETEC</h1>
+        <br><br><br>
+        <details>
+        <summary>DADOS PESSOAIS DO ALUNO</summary>
+        <h1 id="lado">DADOS PESSOAIS DO ALUNO</h1>
+    
+        <div class="aluno">
+            <div class="juntei">
+                <div id="foto">
+                    <div class="file-input-container">
+                        <input type="file" name="arquivo" id="arquivo">
+                        <label for="arquivo">SELECIONAR ARQUIVO</label>
+                        <span>Nenhum arquivo selecionado</span>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="alinhar">
+                <div class="juntei">
+                    <div id="nomem">
+                        <label for="fnomemae">Nome do aluno(a):</label>
+                        <input required type="text" id="fnomemae" name="nome" placeholder="Ex: Neymar Jr">
+                    </div>     
+                    <div id="idae">
+                        <label for="fidade">Data de nascimento:</label>
+                        <input type="date" id="fidade" name="idade">
+                    </div>
+                </div>
+            
+                <div id="lock">
+                    <br>
+                    <label for="fend">Endereço:</label>
+                    <input required type="text" id="fend" name="endereco" placeholder="Ex: Rua arlindo morais>
+                </div>
+
+                <div class="juntei">
+                    <div id="">
+                        <label for="fcep">CEP:</label>
+                        <input required type="text" id="fce" name="cep" placeholder="18321-812">
+                    </div>     
+                    <div id="">
+                        <label for="fbairro">Bairro:</label>
+                        <input type="text" id="fbairro" name="bairro">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </details>
+
+        
+        <details>
+        <summary>DADOS DA MÃE</summary>
+        <h1>DADOS DA MÃE </h1>
+        <div class="mae">
+        <div class="maee">
+            <div id="nomem">
+                <label for="fnomemae">Nome da mãe:</label>
+                <input required type="text" id="fnomemae" name="nome" placeholder="Ex: Maria das Graças"><br><br>
+            </div>
+            <div id="telefone">
+                <label for="ffone">Telefone do trabalho:</label>
+                <input  type="number" id="ffone" name="tel" placeholder="Ex: 121.412.490-09"><br><br>
+            </div>
+            <div id="celular">
+                <label for="fcel">Celular:</label>
+                <input required type="number" id="fcel" name="celu" placeholder="Ex: 15 98642-9701"><br><br>
+             </div>
+             <div id="email">
+                
+                <label for="femail">Email:</label>
+                <input required type="text" id="femail" name="mail" placeholder="example123@gmail.com">
+            </div>
+        </div>    
+        </div> 
+        </details>
+        <details>
+        <summary>DADOS DO PAI</summary>
+        <h1>DADOS DO PAI</h1>
+        <div class="pai">
+            <div class="paii">
+                <div id="nomem">
+                    <label for="fnomemae">Nome da pai</label>
+                    <input required type="text" id="fnomemae" name="nome" placeholder="Ex: João Alberto"><br><br>
+                </div>
+                <div id="telefone">
+                    <label for="ffone">Telefone do trabalho:</label>
+                    <input  type="number" id="ffone" name="tel" placeholder="Ex: 121.412.490-09"><br><br>
+                </div>
+                <div id="celular">
+                    <label for="fcel">Celular:</label>
+                    <input required type="number" id="fcel" name="celu" placeholder="Ex: 15 98642-9701"><br><br>
+                 </div>
+                 <div id="email">
+                    
+                    <label for="femail">Email:</label>
+                    <input required type="text" id="femail" name="mail" placeholder="example123@gmail.com">
+                </div>
+            </div>    
+            </div>
+        </details> 
+        <details>
+            <h1>ESCOLHA UM CURSO</h1>
+        <summary>OPÇÕES DE CURSO</summary>
+        <div class="pai">
+            <div class="paii">
+                <label for="opcao">Selecione uma unidade:</label>
+                    <select id="opcao" name="opcao">
+                    <option value="opcao1">ETEC FERNANDO PRESTES</option>
+                    <option value="opcao2">ETEC FERNANDO PRESTES EXTENSÃO FATEC</option>
+                    
+                    </select>
+                <label for="opcao">Selecione um curso:</label>
+                    <select id="opcao" name="opcao">
+                    <option value="opcao1">ANÁLISE E DESENVOLVIMENTO DE SISTESMAS</option>
+                    <option value="opcao2">LOGÍSTICA</option>
+                    
+                    </select>
+                    
+            </div>    
+            </div>
+        
+                
+            <div id="enviar">
+                <input id="dados" type="submit" value="Enviar dados">
+                <input id="dados"type="reset"  value="Limpar dados">
+            </div>
+        </details>
+    </form>        
+</body>
+</html>
